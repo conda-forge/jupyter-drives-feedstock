@@ -1,5 +1,5 @@
 {% set name = "jupyter-drives" %}
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyter_drives-{{ version }}.tar.gz
-  sha256: 15aaac696a734176a6fce8dfc965f9c9eb9f06479f0f396695090d9452c5c4e7
+  sha256: 3066ec44339eb36aa0af34e5d80d12638d207f4abf4c97196b4bb505b8403c6f
 
 build:
   noarch: python
